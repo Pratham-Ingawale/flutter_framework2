@@ -35,7 +35,8 @@ let package = Package(
                 .process("../frameworks/permission_handler_apple.xcframework"),
                 .process("../frameworks/shared_preferences_foundation.xcframework"),
                 .process("../frameworks/sqflite.xcframework"),
-                .process("../frameworks/url_launcher_ios.xcframework")
+                .process("../frameworks/url_launcher_ios.xcframework"),
+                .process("../frameworks/App.xcframework/ios-arm64_x86_64-simulator/App.framework/flutter_assets/kernel_blob.bin")
             ]
         ),
     ]
