@@ -1,0 +1,7 @@
+{
+  "is_ssl": true,
+  "host": "cdn-api.digitalfanexperience.com",
+  "sport_key": "dfea4a77db00a20c7d4",
+  "env_key": "dev",
+  "query_version": "13.0.0"
+}
