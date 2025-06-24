@@ -1,0 +1,521 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "map_launcher",
+    "printedName": "map_launcher",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "map_launcher"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "map_launcher"
+      },
+      {
+        "kind": "Import",
+        "name": "MapKit",
+        "printedName": "MapKit",
+        "declKind": "Import",
+        "moduleName": "map_launcher"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SwiftMapLauncherPlugin",
+        "printedName": "SwiftMapLauncherPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@map_launcher@objc(cs)SwiftMapLauncherPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s12map_launcher22SwiftMapLauncherPluginC8register4withySo07FlutterF9Registrar_p_tFZ",
+            "moduleName": "map_launcher",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@map_launcher@objc(cs)SwiftMapLauncherPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s12map_launcher22SwiftMapLauncherPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "map_launcher",
+            "objc_name": "handleMethodCall:result:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftMapLauncherPlugin",
+                "printedName": "map_launcher.SwiftMapLauncherPlugin",
+                "usr": "c:@M@map_launcher@objc(cs)SwiftMapLauncherPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@map_launcher@objc(cs)SwiftMapLauncherPlugin(im)init",
+            "mangledName": "$s12map_launcher22SwiftMapLauncherPluginCACycfc",
+            "moduleName": "map_launcher",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@map_launcher@objc(cs)SwiftMapLauncherPlugin",
+        "mangledName": "$s12map_launcher22SwiftMapLauncherPluginC",
+        "moduleName": "map_launcher",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 961,
+      "length": 12,
+      "value": "\"Apple Maps\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1010,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1032,
+      "length": 13,
+      "value": "\"Google Maps\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1083,
+      "length": 18,
+      "value": "\"comgooglemaps:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1121,
+      "length": 6,
+      "value": "\"Amap\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1163,
+      "length": 12,
+      "value": "\"iosamap:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1195,
+      "length": 12,
+      "value": "\"Baidu Maps\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1244,
+      "length": 13,
+      "value": "\"baidumap:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1277,
+      "length": 6,
+      "value": "\"Waze\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1319,
+      "length": 9,
+      "value": "\"waze:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1348,
+      "length": 18,
+      "value": "\"Yandex Navigator\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1408,
+      "length": 15,
+      "value": "\"yandexnavi:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1443,
+      "length": 13,
+      "value": "\"Yandex Maps\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1498,
+      "length": 15,
+      "value": "\"yandexmaps:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1533,
+      "length": 12,
+      "value": "\"Citymapper\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1587,
+      "length": 15,
+      "value": "\"citymapper:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1622,
+      "length": 9,
+      "value": "\"MAPS.ME\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1673,
+      "length": 15,
+      "value": "\"mapswithme:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1708,
+      "length": 8,
+      "value": "\"OsmAnd\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1754,
+      "length": 15,
+      "value": "\"osmandmaps:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1789,
+      "length": 6,
+      "value": "\"2GIS\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1836,
+      "length": 9,
+      "value": "\"dgis:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1865,
+      "length": 19,
+      "value": "\"Tencent (QQ Maps)\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1923,
+      "length": 10,
+      "value": "\"qqmap:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 1953,
+      "length": 11,
+      "value": "\"HERE WeGo\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2000,
+      "length": 18,
+      "value": "\"here-location:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2038,
+      "length": 11,
+      "value": "\"TomTom Go\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2089,
+      "length": 13,
+      "value": "\"tomtomgo:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2122,
+      "length": 17,
+      "value": "\"TomTom Go Fleet\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2184,
+      "length": 18,
+      "value": "\"tomtomgofleet:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2222,
+      "length": 13,
+      "value": "\"Sygic Truck\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2277,
+      "length": 19,
+      "value": "\"com.sygic.aura:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2316,
+      "length": 9,
+      "value": "\"CoPilot\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2364,
+      "length": 12,
+      "value": "\"copilot:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2396,
+      "length": 11,
+      "value": "\"Naver Map\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2444,
+      "length": 9,
+      "value": "\"nmap:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2473,
+      "length": 12,
+      "value": "\"Kakao Maps\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2522,
+      "length": 13,
+      "value": "\"kakaomap:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2555,
+      "length": 6,
+      "value": "\"TMap\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2597,
+      "length": 9,
+      "value": "\"tmap:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2626,
+      "length": 9,
+      "value": "\"Mapy CZ\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/.pub-cache\/hosted\/pub.dev\/map_launcher-3.2.0\/ios\/Classes\/SwiftMapLauncherPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 2673,
+      "length": 13,
+      "value": "\"szn-mapy:\/\/\""
+    }
+  ]
+}
