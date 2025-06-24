@@ -12,15 +12,9 @@ let package = Package(
             targets: ["flutter_framework2_target"]  // The target for this executable
         ),
     ],
-    dependencies: [
-        .package(url: "https://github.com/apple/swift-argument-parser.git", from: "1.2.0"),
-    ],
     targets: [
         .executableTarget(
             name: "flutter_framework2_target",  // Executable target
-            dependencies: [
-                .product(name: "ArgumentParser", package: "swift-argument-parser"),
-            ],
             path: "Sources",
             resources: [
                 .process("../frameworks/app_settings.xcframework"),
